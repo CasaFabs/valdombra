@@ -1,7 +1,4 @@
-VALDOMBRA 1.5 — CAPITOLO I
-
-Carica i 14 file nella radice del repository GitHub Pages (sostituisci i file precedenti). Non rimuovere la app dall’iPad e non cancellare i dati del sito: conserva i salvataggi. Prima di aggiornare esporta un backup dal gioco. Dopo il caricamento, apri online la app su iPad, attendi che si aggiorni e poi prova la modalità aereo.
-
-NOVITÀ: esplorazione nel vicolo, enigma interattivo, nuova pista, finale di capitolo con tre scelte, diario aggiornato.
-
-Se una prova non va a buon fine o appare una vecchia versione, torna online per verificare che la cache si sia aggiornata.
+VALDOMBRA 1.6 — progressione armatura e epilogo con maschera dell’Ordine.
+Caricare tutti i file nella radice del repository GitHub senza eliminare i salvataggi.
+Prima di aggiornare, esportare un backup JSON sull’iPad.
+Dopo il deploy, aprire il sito online e poi verificare la versione installata e la modalita aereo.
