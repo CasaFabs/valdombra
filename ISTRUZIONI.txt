@@ -1,13 +1,7 @@
-VALDOMBRA 1.4.1 — INSTALLAZIONE SU IPHONE / IPAD
+VALDOMBRA 1.5 — CAPITOLO I
 
-1. Carica il CONTENUTO della cartella Valdombra_Prologo_1.4.1 su un sito HTTPS (per esempio GitHub Pages). Non condividere lo ZIP come se fosse già un sito.
-2. Su iPhone apri l’indirizzo HTTPS con Safari, attendi il caricamento della pagina.
-3. Dal menu Condividi scegli «Aggiungi alla schermata Home» e apri Valdombra dalla nuova icona.
-4. Prima del viaggio, visita il gioco una volta online e attendi che il caricamento termini.
-5. Chiudi l'app, attiva la modalità aereo e riapri dall'icona. Prova scena, mappa e salvataggio, chiudi e riapri ancora.
-6. I salvataggi restano nel browser/app del dispositivo. La partita su Mac non viene automaticamente trasferita; usa «Backup» > Esporta/Importa per trasferirla.
+Carica i 14 file nella radice del repository GitHub Pages (sostituisci i file precedenti). Non rimuovere la app dall’iPad e non cancellare i dati del sito: conserva i salvataggi. Prima di aggiornare esporta un backup dal gioco. Dopo il caricamento, apri online la app su iPad, attendi che si aggiorni e poi prova la modalità aereo.
 
-IMPORTANTE: Aprire index.html direttamente come file:// NON installa una PWA e NON consente al service worker di funzionare.
-Non cancellare dati del sito né la app senza avere esportato un backup.
+NOVITÀ: esplorazione nel vicolo, enigma interattivo, nuova pista, finale di capitolo con tre scelte, diario aggiornato.
 
-CORREZIONE 1.4.1: cartina mappa-valdombra.webp inclusa nello ZIP e nella cache.
+Se una prova non va a buon fine o appare una vecchia versione, torna online per verificare che la cache si sia aggiornata.
