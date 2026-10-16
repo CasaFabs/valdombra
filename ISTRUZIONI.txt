@@ -1,9 +1,4 @@
-VALDOMBRA 3.0 — CAPITOLO I
-
-Carica il CONTENUTO di questa cartella nella radice del repository GitHub Pages, sovrascrivendo le versioni precedenti.
-Apri https://casafabs.github.io/valdombra/ e verifica la versione 3.0.
-Per iPad, apri in Safari e usa Condividi > Aggiungi alla schermata Home. Apri online una prima volta e verifica la modalita aereo prima di partire.
-I salvataggi sono locali al dispositivo: usa il menu Backup per conservarne una copia.
-Non cancellare i dati di Safari prima di aver esportato il backup.
-
-NOTA DI COLLAUDO: i controlli automatici di sintassi, risorse e avvio non sostituiscono una partita completa su iPad.
+Valdombra Capitolo I 3.0.1 — aggiornamento tecnico senza modifiche narrative.
+Carica i file nella radice del repository GitHub sovrascrivendo quelli esistenti.
+Salvataggi: chiave invariata; esporta sempre un backup prima di aggiornare.
+Controlli: sintassi, ZIP, precache; test completo su iPad ancora necessario.
