@@ -1,2 +1,4 @@
 VALDOMBRA 2.4
 Salute massima 20 PV. Riposo breve in piazza +4 PV (una volta per fase, tempo avanza); riposo completo in locanda solo se sicura, una volta; bende +4 PV, utilizzabili durante il combattimento. Salvataggi preesistenti migrati preservando i danni subiti. Pubblicare tutti i file alla radice del repository.
+
+VERSIONE 2.5: estensione narrativa della notte; pubblicare tutti i file nella root del repository e verificare cache/offline.
