@@ -1,4 +1,5 @@
-Valdombra Capitolo I 3.0.1 — aggiornamento tecnico senza modifiche narrative.
-Carica i file nella radice del repository GitHub sovrascrivendo quelli esistenti.
-Salvataggi: chiave invariata; esporta sempre un backup prima di aggiornare.
-Controlli: sintassi, ZIP, precache; test completo su iPad ancora necessario.
+VALDOMBRA 3.1 — Capitolo I
+Caricare i file nella radice del repository GitHub (non la cartella contenitrice).
+La versione 3.1 introduce controlli ulteriori sui salvataggi e piccole ottimizzazioni per lo schermo iPad.
+I test di esecuzione end-to-end e offline su dispositivo rimangono da completare.
+Nessun contenuto narrativo nuovo.

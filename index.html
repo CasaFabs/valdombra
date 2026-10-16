@@ -110,6 +110,14 @@ body:has(.combatStage) .creatureScene img{display:block;object-fit:contain!impor
 body:has(.combatStage) .creatureScene figcaption{padding:5px 10px;font-size:12px;line-height:1.3}
 body:has(.combatStage) .creatureAttack img{object-fit:contain!important;object-position:center center!important}
 @media(max-width:460px){body:has(.combatStage) .creatureScene img{height:clamp(135px,22vh,190px)!important}}
+
+@media (min-width: 600px) and (max-width: 1100px) and (orientation: landscape){
+ body:has(.combatStage) .creatureScene{max-width:335px;margin:4px auto}
+ body:has(.combatStage) .creatureScene img{height:clamp(116px,20vh,170px)!important}
+ body:has(.combatStage) .combatStage{padding:7px 9px;margin-top:4px}
+ body:has(.combatStage) .combatStage .choices button{min-height:35px}
+ body:has(.combatStage) #content{padding:12px}
+}
 </style><style> .equipmentPiece{padding:10px 12px;margin:8px 0;background:#19231f;border:1px solid #596258;border-radius:9px;display:flex;flex-direction:column;gap:2px}.equipmentPiece small{color:#c5bda9}.equipmentArt{display:block;width:100%;max-height:170px;object-fit:cover;border-radius:9px;border:1px solid #81745d;margin:10px 0}.orderPortrait{display:block;width:100%;max-width:390px;max-height:440px;object-fit:contain;background:#292923;border-radius:12px;border:1px solid #8f8068;margin:16px auto} </style><style>
 .itemCard{display:flex;align-items:center;gap:12px;padding:10px;margin:8px 0;background:#15201c;border:1px solid #5b665b;border-radius:12px}
 .itemArt{width:102px;height:80px;object-fit:cover;border-radius:9px;border:1px solid #88795d;flex-shrink:0;background:#0f1714}
@@ -118,7 +126,7 @@ body:has(.combatStage) .creatureAttack img{object-fit:contain!important;object-p
 @media(max-width:430px){.itemArt{width:80px;height:68px}.permaGrid .itemArt{height:62px}}
 
 @media(max-width:430px){dialog{width:calc(100% - 18px)}.choices button{font-size:14px}}
-.restActions{margin:12px 0}.restActions button{width:100%;background:#29392f;border-color:#a69271}</style></head><body><main><div class="top"><span class="kicker">LE CRONACHE DEL VIANDANTE · CAPITOLO I</span><span id="save" class="pill">● Locale</span></div><h1>Il villaggio della luna nera</h1><div class="muted">Capitolo I · versione 3.0.1 · offline</div><img class="hero" src="viandante.jpg" alt="Il Viandante, con cappuccio e lanterna"><div class="toolbar"><button onclick="showJournal()">▤ Diario</button><button onclick="showBag()">◈ Inventario</button><button onclick="showEquipment()">⚔ Equipaggiamento</button><button onclick="showBestiary()">☷ Bestiario</button><button onclick="showSlots()">▣ Salvataggi</button><button onclick="showBackup()">↓ Backup</button><button onclick="showMission()">✉ Missione</button><button onclick="showHelp()">? Regole</button><button onclick="restart()">↺ Ricomincia</button></div><div id="sceneSound" class="soundHint" aria-live="polite">♫ Effetti sintetici sospesi per questa prova</div><section id="hud" class="card hidden"><div class="top"><strong id="heroName"></strong><span class="pill" id="moment"></span></div><div class="stats"><div><div class="top"><span class="hint">♥ Vita</span><span id="hpLabel" class="hint"></span></div><div class="bar"><div id="hpbar" class="fill red"></div></div></div><div><div class="top"><span class="hint">⚡ Energia</span><span id="enLabel" class="hint"></span></div><div class="bar"><div id="enbar" class="fill yellow"></div></div></div></div><div class="top"><span class="hint" id="fearLabel"></span><span class="hint" id="xpLabel"></span></div></section><section class="card" id="content"></section><footer>Capitolo I · I salvataggi rimangono su questo dispositivo/browser. Conserva un backup prima di cancellare i dati del sito.</footer></main><dialog id="modal"><div id="modalBody"></div><button onclick="document.getElementById('modal').close()">Chiudi</button></dialog><script>
+.restActions{margin:12px 0}.restActions button{width:100%;background:#29392f;border-color:#a69271}</style></head><body><main><div class="top"><span class="kicker">LE CRONACHE DEL VIANDANTE · CAPITOLO I</span><span id="save" class="pill">● Locale</span></div><h1>Il villaggio della luna nera</h1><div class="muted">Capitolo I · versione 3.1 · offline</div><img class="hero" src="viandante.jpg" alt="Il Viandante, con cappuccio e lanterna"><div class="toolbar"><button onclick="showJournal()">▤ Diario</button><button onclick="showBag()">◈ Inventario</button><button onclick="showEquipment()">⚔ Equipaggiamento</button><button onclick="showBestiary()">☷ Bestiario</button><button onclick="showSlots()">▣ Salvataggi</button><button onclick="showBackup()">↓ Backup</button><button onclick="showMission()">✉ Missione</button><button onclick="showHelp()">? Regole</button><button onclick="restart()">↺ Ricomincia</button></div><div id="sceneSound" class="soundHint" aria-live="polite">♫ Effetti sintetici sospesi per questa prova</div><section id="hud" class="card hidden"><div class="top"><strong id="heroName"></strong><span class="pill" id="moment"></span></div><div class="stats"><div><div class="top"><span class="hint">♥ Vita</span><span id="hpLabel" class="hint"></span></div><div class="bar"><div id="hpbar" class="fill red"></div></div></div><div><div class="top"><span class="hint">⚡ Energia</span><span id="enLabel" class="hint"></span></div><div class="bar"><div id="enbar" class="fill yellow"></div></div></div></div><div class="top"><span class="hint" id="fearLabel"></span><span class="hint" id="xpLabel"></span></div></section><section class="card" id="content"></section><footer>Capitolo I · I salvataggi rimangono su questo dispositivo/browser. Conserva un backup prima di cancellare i dati del sito.</footer></main><dialog id="modal"><div id="modalBody"></div><button onclick="document.getElementById('modal').close()">Chiudi</button></dialog><script>
 const KEY='valdombra_prologo_07', SLOT='valdombra_prologo_07_slot_';const $=id=>document.getElementById(id);const rand=n=>Math.floor(Math.random()*n)+1;const base=()=>({scene:'creation',name:'',stats:{Forza:1,Agilità:1,Percezione:1,Volontà:1},pool:4,hp:20,maxHp:20,en:6,fear:0,xp:0,time:0,inventory:['Coltello','Benda','Benda'],clues:[],flags:{},visits:[],combat:null,pending:null,die:null});let s;try{s=JSON.parse(localStorage.getItem(KEY))||base()}catch{s=base()}function equipmentInit(){if(!s.loadout||typeof s.loadout!== 'object')s.loadout={main:'dagger',ammo:3};if(!['dagger','sword','axe','dual'].includes(s.loadout.main))s.loadout.main='dagger';if(!Number.isInteger(s.loadout.ammo))s.loadout.ammo=3; s.loadout.ammo=Math.max(0,Math.min(3,s.loadout.ammo));}
 // Verifica prima dell'inizializzazione: un backup o uno slot incompleto non deve bloccare l'avvio.
 if(!s||typeof s!=='object'||Array.isArray(s)){s=base()}
@@ -154,8 +162,13 @@ function normalizeSave(){
  equipmentInit();
  const valid=['creation','letter','arrival','village','alley','inn','church','woods','narrative','dice','combat','conclusion','threshold','nightWatch','nightTrail','nightReturn','lastInquiry','lastDecision','lastAftermath','chapterEnd','orderEpilogue','ending'];
  if(!valid.includes(s.scene))s.scene='village';
- if(s.scene==='combat'&&(!s.combat||!s.combat.enemyType))s.scene='village';
- if(s.scene==='dice'&&(!s.pending||!s.pending.stat))s.scene='village';
+ if(s.scene==='combat'){
+  const phases=['choose','playerRoll','playerResult','playerDamage','enemyRoll','enemyResult','enemyDamage','end'];
+  const c=s.combat;
+  if(!c||typeof c!=='object'||!['lupo','bandito','nonmorto','creatura'].includes(c.enemyType)||!phases.includes(c.phase)||!Number.isFinite(c.hp)||c.hp<0||c.hp>30){s.combat=null;s.scene='village'}
+  else {if(!Number.isFinite(c.damage))c.damage=0;if(!Array.isArray(c.values))c.values=[];}
+ }
+ if(s.scene==='dice'&&(!s.pending||typeof s.pending!=='object'||!['Forza','Agilità','Percezione','Volontà'].includes(s.pending.stat))) {s.pending=null;s.scene='village'};
 }
 normalizeSave();
 function unlockedWeapons(){return ['dagger',...(hasClue('tower')||hasClue('tracks')?['sword']:[]),...(hasClue('cloth')||hasClue('woods')?['axe','throw']:[]),...(s.flags.alleySolved?['dual']:[])];}
@@ -163,7 +176,7 @@ const weaponData={dagger:{name:'Pugnale da viaggio',sides:4,note:'Maneggevole e 
 function mainWeapon(){equipmentInit();if(!unlockedWeapons().includes(s.loadout.main))s.loadout.main='dagger';return weaponData[s.loadout.main];}
 function armorDefense(){const a=armorProgress();return Math.min(2,Math.floor([a.arm,a.shoulder,a.chest].filter(Boolean).length/2));}
 function equipWeapon(code){equipmentInit();if(!unlockedWeapons().includes(code)||!weaponData[code])return;s.loadout.main=code;persist();showEquipment();}
-let animating=false;const safe=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function persist(){try{localStorage.setItem(KEY,JSON.stringify(s));$('save').textContent='✓ Salvato'}catch{$('save').textContent='⚠ Non salvato'}}function btn(text,action,cls=''){return `<button class="${cls}" data-action="${action}">${text}</button>`}function setScene(sc){s.scene=sc;s.pending=null;s.die=null;render()}function award(key,n){if(!s.flags['xp_'+key]){s.flags['xp_'+key]=true;s.xp+=n}}function tick(){s.time=Math.min(2,s.time+1)}function addClue(key,text){if(!s.clues.find(x=>x.key===key)){s.clues.push({key,text});award(key,20)}}function stats(){return `D20 + ${s.stats.Percezione} (Percezione)`}function hasClue(k){return s.clues.some(x=>x.key===k)}
+let animating=false;const safe=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function persist(){try{localStorage.setItem(KEY,JSON.stringify(s));$('save').textContent='✓ Salvato · '+new Date().toLocaleTimeString('it-IT',{hour:'2-digit',minute:'2-digit'})}catch{$('save').textContent='⚠ Non salvato'}}function btn(text,action,cls=''){return `<button class="${cls}" data-action="${action}">${text}</button>`}function setScene(sc){s.scene=sc;s.pending=null;s.die=null;render()}function award(key,n){if(!s.flags['xp_'+key]){s.flags['xp_'+key]=true;s.xp+=n}}function tick(){s.time=Math.min(2,s.time+1)}function addClue(key,text){if(!s.clues.find(x=>x.key===key)){s.clues.push({key,text});award(key,20)}}function stats(){return `D20 + ${s.stats.Percezione} (Percezione)`}function hasClue(k){return s.clues.some(x=>x.key===k)}
 function mapState(place){
  const sets={inn:['inn','counter'],church:['tower','tracks'],woods:['cloth','woods']};
  if(place==='alley')return s.clues.length<2?{kind:'locked',icon:'🔒',label:'Da scoprire',detail:'Servono almeno due indizi'}:{kind:s.flags.alleySeen?'complete':'activeLead',icon:s.flags.alleySeen?'✓':'!',label:s.flags.alleySeen?'Visitato':'Nuova pista',detail:'Passaggio accessibile'};
@@ -422,8 +435,9 @@ function validGame(v){
  if(!Array.isArray(v.inventory)||v.inventory.length>6||!v.inventory.every(x=>typeof x==='string'&&x.length<100))return false;
  if(!v.flags||typeof v.flags!=='object'||Array.isArray(v.flags)||!Array.isArray(v.visits||[]))return false;
  if(!Number.isFinite(v.hp)||v.hp<0||v.hp>20||!Number.isFinite(v.en)||v.en<0||v.en>6)return false;
- if(v.scene==='combat'&&(!v.combat||typeof v.combat!=='object'||typeof v.combat.enemyType!=='string'))return false;
- if(v.scene==='dice'&&(!v.pending||typeof v.pending!=='object'||typeof v.pending.stat!=='string'))return false;
+ if(v.scene==='combat'&&(!v.combat||typeof v.combat!=='object'||!['lupo','bandito','nonmorto','creatura'].includes(v.combat.enemyType)||!['choose','playerRoll','playerResult','playerDamage','enemyRoll','enemyResult','enemyDamage','end'].includes(v.combat.phase)||!Number.isFinite(v.combat.hp)||v.combat.hp<0||v.combat.hp>30))return false;
+ if(v.scene==='dice'&&(!v.pending||typeof v.pending!=='object'||!['Forza','Agilità','Percezione','Volontà'].includes(v.pending.stat)))return false;
+ if(!Number.isFinite(v.time)||v.time<0||v.time>2||!Number.isFinite(v.fear)||v.fear<0||v.fear>6)return false;
  return true;
 }
 async function importBackupFile(input){
