@@ -1,6 +1,9 @@
-VALDOMBRA 2.4
-Salute massima 20 PV. Riposo breve in piazza +4 PV (una volta per fase, tempo avanza); riposo completo in locanda solo se sicura, una volta; bende +4 PV, utilizzabili durante il combattimento. Salvataggi preesistenti migrati preservando i danni subiti. Pubblicare tutti i file alla radice del repository.
+VALDOMBRA 3.0 — CAPITOLO I
 
-VERSIONE 2.5: estensione narrativa della notte; pubblicare tutti i file nella root del repository e verificare cache/offline.
+Carica il CONTENUTO di questa cartella nella radice del repository GitHub Pages, sovrascrivendo le versioni precedenti.
+Apri https://casafabs.github.io/valdombra/ e verifica la versione 3.0.
+Per iPad, apri in Safari e usa Condividi > Aggiungi alla schermata Home. Apri online una prima volta e verifica la modalita aereo prima di partire.
+I salvataggi sono locali al dispositivo: usa il menu Backup per conservarne una copia.
+Non cancellare i dati di Safari prima di aver esportato il backup.
 
-Versione 2.8: correzione cache, guardie di progressione, verifica risorse.
+NOTA DI COLLAUDO: i controlli automatici di sintassi, risorse e avvio non sostituiscono una partita completa su iPad.
