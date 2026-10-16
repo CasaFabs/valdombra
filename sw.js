@@ -1,4 +1,4 @@
-const CACHE = 'valdombra-2-5-v1';
+const CACHE = 'valdombra-2-8-v1';
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon.png", "./icon-192.png", "./icon-512.png", "./mappa-valdombra.webp", "./villaggio.jpg", "./sagrato.jpg", "./bosco.jpg", "./lettera.jpg", "./locanda.jpg", "./viandante.jpg", "./armatura-reperti.webp", "./cacciatore-ordine.webp", "./pugnale.webp", "./spada.webp", "./ascia.webp", "./doppia-spada.webp", "./lancio.webp", "./bracciale.webp", "./spallaccio.webp", "./corazza.webp", "./lanterna.webp", "./diario.webp", "./abiti.webp", "./benda.webp", "./creatura-incontro.webp", "./creatura-assalto.webp", "./nemico-bandito.webp", "./nemico-nonmorto.webp", "./nemico-lupo.webp", "./nemico-preda.webp"];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('valdombra-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
