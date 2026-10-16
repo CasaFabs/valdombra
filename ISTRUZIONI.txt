@@ -1,4 +1,4 @@
-VALDOMBRA 1.6 — progressione armatura e epilogo con maschera dell’Ordine.
-Caricare tutti i file nella radice del repository GitHub senza eliminare i salvataggi.
-Prima di aggiornare, esportare un backup JSON sull’iPad.
-Dopo il deploy, aprire il sito online e poi verificare la versione installata e la modalita aereo.
+VALDOMBRA 1.8 — immagini realistiche per armi, armatura e inventario.
+Prima di aggiornare la PWA, esporta un backup della partita.
+Carica tutti i file nella root di GitHub Pages.
+Non eliminare la vecchia app dal tuo iPad prima del collaudo.
